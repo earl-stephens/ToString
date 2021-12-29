@@ -30,4 +30,14 @@ public class Person {
 	public void setHeight(double height) {
 		this.height = height;
 	}
+	
+	public String toString() {
+		/* this is one way
+		String text = "Name; " + name + ", height" + height;
+		return text;
+		*/
+		
+		//This is another way
+		return "Name; " + name + ", height: " + height;
+	}
 }
